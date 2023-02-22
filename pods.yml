@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v1
+metadata: 
+     name: podx
+          namespace: default
+               labels:
+                      app: myapp
+                             env: dev
+                             spec: 
+                                 containers
+                                    - name: cont1
+                                           image: httpd:latest
