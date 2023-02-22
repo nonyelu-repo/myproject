@@ -1,0 +1,6 @@
+- name: ping
+  hosts: ubuntu
+  gather_facts: No
+  tasks:
+   - name: Check Ping Connectivity
+     ping: 
