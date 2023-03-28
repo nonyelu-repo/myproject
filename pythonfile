@@ -1,7 +1,7 @@
 lesson.py
 
-
 kwe= 1
 he= 2
 
-print kwe + he 
+print kwe + he
+
